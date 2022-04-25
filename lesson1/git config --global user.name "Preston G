@@ -1,0 +1,2 @@
+git config --global user.name "Preston Gagnon"
+git config --global user.email pgagnon@byui.edu

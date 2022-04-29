@@ -1,0 +1,5 @@
+git remote -v
+git remote rm origin
+git remote add origin... (no dots and us your file locatoin)
+
+"https://byui-wdd.github.io/wdd130/rafting_images/dryoarlogo.png"

@@ -41,6 +41,13 @@ img {
   margin: 0 auto;
   max-width: 300px;
 }
+iframe {
+    position: absolute;
+    margin: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);  
+}
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--heading-font);
   color: var(--headline-color-on-white);

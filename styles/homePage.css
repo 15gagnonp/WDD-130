@@ -7,6 +7,29 @@
     font-family: cursive;
 }
 
+html,
+body {
+    margin: 0px;
+}
+
+header {
+    width: 100%;
+    height: 50px;
+    background: blue;
+}
+
+header p {
+    margin: 50px;
+    padding: 5px;
+}
+header span {
+    padding-top: 5px;
+
+}
+main a {
+    padding: 20px;
+    margin: 20px;
+}
 
 /* This is how you leave a comment in CSS */
 

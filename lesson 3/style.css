@@ -1,0 +1,52 @@
+.awesomeDateList {
+    background-color: orange;
+}
+
+.awesomeDateList dt {
+    font-weight: 900;
+}
+.awesomeDateList dd {
+    font-style: italic;
+}
+
+.awesomeDateList dt, .awesomeDateList dd {
+    color: purple;
+}
+
+
+.listContainer {
+    width: 90%;
+    margin: 0 auto;
+    background-color: bisque;
+    border: 1px solid blue;
+}
+.listContainer ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.listContainer ul li {
+    float: left;
+    padding: 0 25px
+}
+
+.awesomeTable {
+    border-collapse: collapse;
+    width: 100%;
+    
+}
+
+.awesomeTable th, .awesomeTable td, .awesomeTable tr {
+
+    border: 1px solid purple;
+    text-align: center;
+}
+
+.awesomeTable th, .awesomeTable td {
+    padding: 5px;
+}
+
+.awesomeTable tr:nth-child(even) {
+
+    background-color: brown;
+}

@@ -1,0 +1,46 @@
+ body {
+    text-align: center;
+    font-weight: bold;
+}
+.container {
+    width: 100%;
+}
+.container div {
+    margin: 0 auto;
+    max-width: 1600px;
+    min-width: 150px;
+}
+.small {
+    background-color: red;
+    padding: 40px;
+    width: 50%;
+}
+.medium {
+    background-color: blue;
+    padding: 60px;
+    width: 65%;
+}
+.large {
+    background-color: green;
+    padding: 80px;
+    width: 80%;
+}
+.bottom div {
+    width: 100px;
+    padding: 50px;
+    margin-top: 100px;
+    min-width: 150px;
+    max-width: 1600px;
+    text-align: center;
+}
+.right {
+    background-color: yellow;
+    float: right;
+    margin-right: 10%;
+}
+.left {
+    background-color: blueviolet;
+    float: left;
+    margin-left: 10%;
+}
+

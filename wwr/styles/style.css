@@ -1,12 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Poppins:wght@200&display=swap');
 body {
-    background-color: white;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    background-color: white; 
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    margin:0;
 }
 header {
-background-color: #33658a;
+    background-color: #33658a;
     color: #f6ae2d;
 }
 .home-title {
+    margin-top: 10px;
     color: #f6ae2d;
+    font-family: "Amatic SC", Helvetica, sans-serif ;
+    font-size: 2em;
 }
 nav a:hover {
     background-color: #f6ae2d;
@@ -14,9 +25,13 @@ nav a:hover {
     text-decoration: underline;
 }
 .book, .join {
+    border-radius: 5px;
     background-color: #2f4858;
     color: #f6ae2d;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
 }
 .book:hover , .join:hover {
     background-color: #f6ae2d;
@@ -35,6 +50,7 @@ nav a {
     color: #f6ae2d;
     text-align: center;
     text-decoration: none;
+    padding: 35px;
 }
 
 .clearfix::after {
@@ -44,13 +60,19 @@ nav a {
 }
 
 .msg {
+    padding: 35px;
+    line-height: 1.5em;
     background-color: #2f4858;
     color: #f6ae2d;
 }
 .msg h2 {
+    font-size: 2em;
+    font-family: "Amatic SC", Helvetica, sans-serif;
     color: #f6ae2d;
 }
 .msg p {
+    padding: 15px;
+    font-size: .8em;
     color: #f6ae2d;
 }
 #hero-msg h1, #hero-msg h4 {
@@ -59,15 +81,26 @@ nav a {
 
 .button-box {
     text-align: center;
+    padding-bottom: 35px;
 }
 main section {
     text-align: center;
+}
+main section img {
+    box-sizing: border-box;
+}
+.card-img {
+    border: 10px solid #2f4858;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px
 }
 #background {
     height: 725px;
     background-color: #33658a;
 }
 footer {
+    padding: 25px 50px;
     background-color: #33658a;
     color: #f6ae2d;
 }
@@ -84,12 +117,19 @@ footer h3 a:hover {
     color: #33658a;
     text-decoration: underline;
 }
+footer .social img {
+    padding-top: 15px;
+}
 .icon {
+    padding-top: 10px;
     width: 80px;
 }
 .logo {
     width: 80px;
     margin-bottom: 20px;
+}
+#logo_link {
+    padding-top: 5px;
 }
 #hero-img {
     width: 100%;

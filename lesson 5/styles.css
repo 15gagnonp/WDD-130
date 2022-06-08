@@ -1,0 +1,36 @@
+body {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    text-align: center;
+    margin: auto 5px;
+    margin-top: 5px;
+    gap: 5px;
+    height: 1300px;
+
+}
+header {
+    background-color: blue;
+    grid-column: 1/12;
+    grid-row: 1/2 ;
+}
+main {
+    background-color: pink;
+    grid-column: 3/9;
+    grid-row: 2/10;
+}
+.right {
+    background-color: yellow;
+    grid-column: 9/12;
+    grid-row: 2/10;
+}
+.left {
+    background-color: red;
+    grid-column: 1/3;
+    grid-row: 2/11;
+}
+footer {
+    background-color: black;
+    color: white;
+    grid-column: 3/12;
+}
